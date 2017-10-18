@@ -1,0 +1,10 @@
+wheel
+boto3
+Flask
+requests
+requests-oauthlib
+pytest
+zappa
+PyJwt
+flask_restful
+marshmallow

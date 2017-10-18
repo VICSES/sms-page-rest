@@ -1,0 +1,29 @@
+{
+    "dev": {
+		"debug":true,
+        "app_function": "web.app",
+        "aws_region": "ap-southeast-2",
+        "profile_name": "default",
+        "s3_bucket": "zappa-123abc456",
+		"environment_variables": {
+			"TWILIO_AUTH_TOKEN" : "<twilio-auth-token>",
+			"SES_ID" : "<ses-id-number>",
+			"SES_PASSWORD" : "<ses-password>",
+			"OAUTH_CLIENT_ID" : "<oauth-application-client-id>",
+			"OAUTH_CLIENT_SECRET" : "<oauth-application-secret>",
+			"TOKEN_SECRET" : "<base64-512bit-random-key>",
+			"AWS_REGION" : "ap-southeast-2"
+		},
+		"extra_permissions": [{
+			"Effect" : "Allow",
+			"Action": "dynamodb:*",
+			"Resource": [
+				"arn:aws:dynamodb:ap-southeast-2:<id>:table/sms-page-dev-contact",
+				"arn:aws:dynamodb:ap-southeast-2:<id>:table/sms-page-dev-member",
+				"arn:aws:dynamodb:ap-southeast-2:<id>:table/sms-page-dev-unit",
+				"arn:aws:dynamodb:ap-southeast-2:<id>:table/sms-page-dev-role",
+				"arn:aws:dynamodb:ap-southeast-2:<id>:table/sms-page-dev-page_log"
+			]
+		}]
+    }
+}

@@ -1,0 +1,9 @@
+faker
+responses
+moto
+pytest
+pytest_mock
+pylint
+pycodestyle
+python_coveralls
+pytest-cov

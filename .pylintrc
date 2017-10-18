@@ -1,0 +1,32 @@
+# Many people recommend a disable all and selectively enable style
+# That requires too much ongoing maintenance for me as new checks come in
+# Also the code base is fairly small, so we can enable all and then
+# whack-a-mole disable the annoying ones.
+# It is also clearer what we are choosing to ignore this way.
+
+[MASTER]
+
+persistent=no
+unsafe-load-any-extension=no
+optimize-ast=no
+
+# Using multiple processes hides results
+jobs=1
+
+[MESSAGES CONTROL]
+enable=all
+
+disable=missing-docstring,
+        fixme,
+        broad-except,
+        too-few-public-methods,
+        invalid-name,
+        no-else-return,
+        locally-disabled,
+        suppressed-message,
+        ungrouped-imports,
+		bad-whitespace,
+
+[REPORTS]
+output-format=parseable
+reports=no
