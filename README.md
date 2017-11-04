@@ -38,3 +38,6 @@ $ source env/bin/activate
 * [`PUT /rest/member/:member_id`](api.md#update-member)
 * [`GET /rest/role/:name`](api.md#get-role)
 
+# LICENCE
+
+The source code for this project is provided under the terms of the GNU Affero General Public License Version 3 (AGPL-3). A copy of this licence is provided in [LICENCE.md](LICENCE.md).

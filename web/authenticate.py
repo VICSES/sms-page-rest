@@ -1,3 +1,7 @@
+# Copyright 2017 David Tulloh
+# This file is part of sms-page-rest. sms-page-rest is free software,
+# you can distribute or modify it under the terms of the AGPL-3 licence.
+
 import os
 import time
 import re
