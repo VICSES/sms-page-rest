@@ -1,6 +1,6 @@
-# Copyright 2017 David Tulloh
-# This file is part of sms-page-rest. sms-page-rest is free software,
-# you can distribute or modify it under the terms of the AGPL-3 licence.
+# Copyright 2017 David Tulloh This file is part of sms-page-rest.
+# sms-page-rest is free software, you can distribute or modify it
+# under the terms of the GNU Affero General Public License (AGPL-3).
 
 import logging
 from functools import wraps
