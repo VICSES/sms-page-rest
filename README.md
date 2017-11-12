@@ -1,5 +1,6 @@
 [![Build Status](https://travis-ci.org/VICSES/sms-page-rest.svg?branch=master)](https://travis-ci.org/VICSES/sms-page-rest)
 [![Coverage Status](https://coveralls.io/repos/github/VICSES/sms-page-rest/badge.svg?branch=master)](https://coveralls.io/github/VICSES/sms-page-rest?branch=master)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FVICSES%2Fsms-page-rest.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FVICSES%2Fsms-page-rest?ref=badge_shield)
 
 # Introduction
 
@@ -41,3 +42,6 @@ $ source env/bin/activate
 # LICENCE
 
 The source code for this project is provided under the terms of the GNU Affero General Public License Version 3 (AGPL-3). A copy of this licence is provided in [LICENCE.md](LICENCE.md).
+
+
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FVICSES%2Fsms-page-rest.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FVICSES%2Fsms-page-rest?ref=badge_large)
